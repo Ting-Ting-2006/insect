@@ -3,74 +3,56 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 5036,
+      "count": 53493,
       "max": [
-        0.65702402591705322,
-        0.93279898166656494,
-        1
+        3.6201150417327881,
+        3.8259251117706299,
+        3.0531389713287354
       ],
       "min": [
-        -0.65702402591705322,
-        -0.93279898166656494,
-        -1
+        -4.7470598220825195,
+        -1.739577054977417,
+        -3.8521490097045898
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 60432,
+      "byteOffset": 641916,
       "componentType": 5126,
-      "count": 5036,
+      "count": 53493,
       "max": [
-        1,
-        1,
-        1
+        0.99999862909317017,
+        0.99994814395904541,
+        0.9999808669090271
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -0.99988377094268799,
+        -0.99999535083770752,
+        -0.99996161460876465
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 5036,
-      "max": [
-        1,
-        1,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
-        -1,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 5036,
+      "count": 53493,
       "max": [
-        0.98798400163650513,
-        0.9878699779510498
+        0.99576401710510254,
+        1
       ],
       "min": [
-        0.0029670000076293945,
-        0.0029670000076293945
+        0,
+        5.0999999075429514e-05
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 14604,
+      "count": 290448,
       "max": [
-        5035
+        53492
       ],
       "min": [
         0
@@ -80,115 +62,96 @@
   ],
   "asset": {
     "extras": {
-      "author": "dgudkov21 (https://sketchfab.com/dgudkov21)",
-      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/21944828c5b04a80bc402c32b3ee17ea",
-      "title": "Robot"
+      "author": "Digital Archive of Natural History (DiNArDa) (https://sketchfab.com/disc3d)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/musca-domestica-157900941156422fbd9dcdfc38a3be19",
+      "title": "Musca domestica"
     },
-    "generator": "Sketchfab-3.19.8",
+    "generator": "Sketchfab-7.80.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 58416,
+      "byteLength": 1161792,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 40288,
-      "byteOffset": 58416,
+      "byteLength": 427944,
+      "byteOffset": 1161792,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 120864,
-      "byteOffset": 98704,
+      "byteLength": 1283832,
+      "byteOffset": 1589736,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 80576,
-      "byteOffset": 219568,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 300144,
+      "byteLength": 2873568,
       "uri": "scene.bin"
     }
   ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
   "images": [
     {
-      "uri": "textures/lambert2_metallicRoughness.png"
-    },
-    {
-      "uri": "textures/lambert2_normal.png"
-    },
-    {
-      "uri": "textures/lambert2_baseColor.jpeg"
+      "uri": "textures/Musca_domestica_2.1001_diffuse.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "lambert2",
-      "normalTexture": {
-        "index": 1,
-        "scale": 1,
-        "texCoord": 0
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.69683689024390238,
+            0.69683689024390238,
+            0.69683689024390238,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.047065548780487854,
+          "specularFactor": [
+            0.62366615853658536,
+            0.62366615853658536,
+            0.62366615853658536
+          ],
+          "specularGlossinessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        }
       },
-      "occlusionTexture": {
-        "index": 0,
-        "strength": 1,
-        "texCoord": 0
-      },
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        },
-        "metallicFactor": 1,
-        "metallicRoughnessTexture": {
-          "index": 0,
-          "texCoord": 0
-        },
-        "roughnessFactor": 1
-      }
+      "name": "Musca_domestica_2.1001"
     }
   ],
   "meshes": [
     {
-      "name": "defaultMaterial",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 2
           },
-          "indices": 4,
+          "indices": 3,
           "material": 0,
           "mode": 4
         }
@@ -212,44 +175,44 @@
       "children": [
         2
       ],
+      "matrix": [
+        0.99754166603088379,
+        0.010474151000380516,
+        0.069288231432437897,
+        0,
+        0.070075437426567078,
+        -0.14910221099853516,
+        -0.9863356351852417,
+        0,
+        0,
+        0.98876631259918213,
+        -0.14946965873241425,
+        0,
+        -0.074486039578914642,
+        1.5996347665786743,
+        0.60873943567276001,
+        1
+      ],
       "name": "RootNode (model correction matrix)"
     },
     {
       "children": [
         3
       ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        -4.3711390063094768e-08,
-        0.999999999999999,
-        0,
-        0,
-        -0.999999999999999,
-        -4.3711390063094768e-08,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "name": "Collada visual scene group"
-    },
-    {
-      "children": [
-        4
-      ],
-      "name": "robot"
+      "name": "Musca_domestica_2.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
-      "name": "defaultMaterial"
+      "name": ""
     }
   ],
   "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
     {
       "magFilter": 9729,
       "minFilter": 9987,
@@ -272,12 +235,8 @@
       "source": 0
     },
     {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
+      "sampler": 1,
+      "source": 0
     }
   ]
 }
